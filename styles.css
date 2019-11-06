@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+#hot{
+    background-image: url("hot.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#juicy {
+    background-image: url("juicy.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#cozy {
+    background-image: url("cosy.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
