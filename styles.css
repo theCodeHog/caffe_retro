@@ -1,21 +1,75 @@
+*{
+    box-sizing: border-box;
+  }
+
+img {
+width: 100%;
+}
+
 body {
     margin: 0;
+    background-color: darkred;
+}
+
+.topMenu{
+    font-family: 'Spirax', cursive;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    background-color: black;
+    opacity: 50%;
+    position: fixed;
+}
+
+.titleWord{
+    margin: 0;
+    font-family: 'Spirax', cursive;
+    font-size: 5em;
+    color: darkred;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+}
+
+.textLine {
+    margin-left: 20%;
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    background-color: darkred;
+    padding: 15px;
+}
+
+.priceList {
+    margin-left: 25%;
+    width:50%;
+    background-color: black;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    padding: 5px;
 }
 
 #hot{
+    width: 100%;
+    height: 100vh;
     background-image: url("hot.jpg");
     background-size: cover;
     background-position: 50% 50%;
 }
 
 #juicy {
+    width: 100%;
+    height: 100vh;
     background-image: url("juicy.jpg");
     background-size: cover;
     background-position: 50% 50%;
 }
 
 #cozy {
+    width: 100%;
+    height: 100vh;
     background-image: url("cosy.jpg");
     background-size: cover;
     background-position: 50% 50%;
 }
+
